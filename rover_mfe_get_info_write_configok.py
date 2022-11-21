@@ -208,7 +208,7 @@ rovers_mfe__ASI_IP_DEC_config_trap  = {
 ###     TOCAR  +######config oid trap de la unit#######################################
 rovers_mfe__manager_config_trap ={
      "manager_create":  5, #valor 4 indica create
-    "manager_ip" :  "172.8.1.20",  # tipo strinfg ip
+    "manager_ip" :  "10.8.1.20",  # tipo strinfg ip
     "manager_port" :  "9000",  # tipo string puerto
     "manager_time":  -1   # valor -1 indica persistente snmp
    
@@ -602,6 +602,6 @@ with open( file , 'r', newline='\n') as csvfile:
 
 
    
-print(" cambio el asi  bitrate del telecentro")
+print(" cambio el asi  bitrate ok")
 
 
