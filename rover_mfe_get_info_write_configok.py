@@ -100,7 +100,7 @@ def rov_mfe_tarjetas(host="",community="public"):
 #######snmp version 1 es mpModel=0
 #######snmp version 2c es  mpModel=1
 ###para los traps 1 es activado o marcado y 2 es desmarcado en la web
-host = "172.8.2.73"
+host = "10.8.2.73"
 comunity="public"
 comunity_write="private"
 
@@ -456,7 +456,7 @@ def rovers_mfe_config_mpeg_decoder_traps(host, json = rover_json () ):
                       rover_json[ "slot" + str(slot) + "-asi-ip-mode"]= "Encapsulador"
 
      
-     ## Trajeta DTMB CUBA
+     ## Trajeta 
      if tarjetas[value] =="DTMB CUBA":
            ##get serial number
            oid_sn="1.3.6.1.4.1.19324.2.2.1.3.2.2.1.1.4." + str(slot)
